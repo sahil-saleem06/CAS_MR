@@ -7,16 +7,16 @@ library(dplyr)
 library(tidyverse)
 
 exposure_files <- list(
-  #doneBMI = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/BMI/bmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz",
-  #CKD = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/CKD/CKD_overall_ALL_JW_20180223_nstud30.dbgap.txt.gz"
-  #done DBP = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/DBP/GCST90310295.tsv.gz",
-  #doneDB2 =  "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/Diabetes(Type2)/Suzuki.Nature2024.T2DGGI.EUR.sumstats.zip"
-  #HDL = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/HDL/with_BF_meta-analysis_AFR_EAS_EUR_HIS_SAS_HDL_INV_ALL_with_N_1.gz"
+  BMI = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/BMI/bmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz",
+  CKD = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/CKD/CKD_overall_ALL_JW_20180223_nstud30.dbgap.txt.gz"
+  DBP = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/DBP/GCST90310295.tsv.gz",
+  T2D =  "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/Diabetes(Type2)/Suzuki.Nature2024.T2DGGI.EUR.sumstats.zip"
+  HDL = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/HDL/with_BF_meta-analysis_AFR_EAS_EUR_HIS_SAS_HDL_INV_ALL_with_N_1.gz"
   LDL = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/LDL/with_BF_meta-analysis_AFR_EAS_EUR_HIS_SAS_LDL_INV_ALL_with_N_1.gz"
-  #doneLPA = "/project/damrauer_scratch/summary_stats/LPA/30790_raw.gwas.imputed_v3.both_sexes.varorder.tsv.bgz"
-  #NONHDL = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/Non-HDL/with_BF_meta-analysis_AFR_EAS_EUR_HIS_SAS_nonHDL_INV_ALL_with_N_1.gz"
-  #doneSBP = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/SBP/QC_SBP-meta-analysis_ICBP2024.tsv",
-  #TC = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/TC/with_BF_meta-analysis_AFR_EAS_EUR_HIS_SAS_TC_INV_ALL_with_N_1.gz"
+  LPA = "/project/damrauer_scratch/summary_stats/LPA/30790_raw.gwas.imputed_v3.both_sexes.varorder.tsv.bgz"
+  NONHDL = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/Non-HDL/with_BF_meta-analysis_AFR_EAS_EUR_HIS_SAS_nonHDL_INV_ALL_with_N_1.gz"
+  SBP = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/SBP/QC_SBP-meta-analysis_ICBP2024.tsv",
+  TC = "/project/damrauer_scratch/Users/saleemsa/ExposureSumStats/TC/with_BF_meta-analysis_AFR_EAS_EUR_HIS_SAS_TC_INV_ALL_with_N_1.gz"
   )
 
 #Function to change to standard column names
