@@ -1,0 +1,11 @@
+"outcome","exposure","method","nsnp","b","se.mr","pval.mr","lo_ci","up_ci","or","or_lci95","or_uci95","ci_range","pval.presso.global","pval.presso.distortion","p.corrected"
+"CAD","BMI","Inverse variance weighted",531,0.45,0.0329,1.66e-42,0.385,0.514,1.568,1.47,1.67,"1.47-1.67",5e-04,0.754,5.53e-42
+"CAD","CKD","Inverse variance weighted",29,0.012,0.0435,0.787,-0.074,0.097,1.012,0.93,1.1,"0.93-1.1",5e-04,0.978,0.787
+"CAD","DBP","Inverse variance weighted",485,0.059,0.0045,4.76e-39,0.05,0.068,1.061,1.05,1.07,"1.05-1.07",5e-04,0.84,1.19e-38
+"CAD","T2D","Inverse variance weighted",448,0.174,0.0182,1.05e-21,0.138,0.21,1.19,1.15,1.23,"1.15-1.23",5e-04,0.978,1.5e-21
+"CAD","HDL","Inverse variance weighted",507,-0.311,0.0345,1.75e-19,-0.379,-0.244,0.733,0.68,0.78,"0.68-0.78",5e-04,0.126,2.19e-19
+"CAD","LDL","Inverse variance weighted",404,0.514,0.0422,3.97e-34,0.431,0.597,1.672,1.54,1.82,"1.54-1.82",5e-04,0.764,7.94e-34
+"CAD","LPA","Inverse variance weighted",9,0.007,0.0014,1.64e-06,0.004,0.009,1.007,1,1.01,"1-1.01",5e-04,5e-04,1.82e-06
+"CAD","NONHDL","Inverse variance weighted",378,0.539,0.0382,4.29e-45,0.464,0.614,1.714,1.59,1.85,"1.59-1.85",5e-04,0.574,2.14e-44
+"CAD","SBP","Inverse variance weighted",528,0.046,0.0025,1.6e-71,0.041,0.051,1.047,1.04,1.05,"1.04-1.05",5e-04,0.89,1.6e-70
+"CAD","TC","Inverse variance weighted",464,0.433,0.0364,1.1e-32,0.362,0.505,1.542,1.44,1.66,"1.44-1.66",5e-04,0.862,1.83e-32
